@@ -1,0 +1,38 @@
+
+@import "tailwindcss";
+/* lowlight highlight.js theme */
+.hljs {
+  background: transparent;
+  padding: 0.5em;
+  border-radius: 6px;
+  overflow-x: auto;
+  font-family: Menlo, Monaco, "Courier New", monospace;
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+
+/* Syntax coloring */
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-title,
+.hljs-section {
+  color: #ff7b72;
+  font-weight: bold;
+}
+
+.hljs-comment {
+  color: #6a737d;
+  font-style: italic;
+}
+
+.hljs-string,
+.hljs-attr,
+.hljs-variable {
+  color: #a5d6ff;
+}
+
+.hljs-built_in,
+.hljs-type {
+  color: #d2a8ff;
+}
